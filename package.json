@@ -1,0 +1,69 @@
+{
+  "name": "vue_demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@riophae/vue-treeselect": "^0.4.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.0-beta2",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "jquery-mask-plugin": "^1.14.16",
+    "jquery-resizable": "^1.0.6",
+    "localforage": "^1.9.0",
+    "lodash": "^4.17.20",
+    "node-sass": "^5.0.0",
+    "pikaday": "^1.8.2",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
+    "vue-directive-tooltip": "^1.6.3",
+    "vue-i18n": "^8.22.4",
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vue-router": "^3.5.1",
+    "vue-router-layout": "^0.1.6",
+    "vue-toasted": "^1.1.28",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.11",
+    "@vue/cli-plugin-vuex": "^4.5.11",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.32.7",
+    "sass-loader": "^11.0.1",
+    "vue-auto-routing": "^1.0.0",
+    "vue-cli-plugin-auto-routing": "~1.2.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^5.22.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
